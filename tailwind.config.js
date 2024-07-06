@@ -5,7 +5,12 @@ export default {
     "./lib/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        gray01: "rgba(0,0,0,.32)",
+        gray02: "rgba(0, 0, 0, .64)",
+      },
+    },
   },
   plugins: [],
 };

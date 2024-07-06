@@ -9,7 +9,7 @@ export type InsightProps = {
 };
 
 export const InsightComp = ({ icon, title }: PointProps) => (
-  <li className="flex gap-[8px] mn-[16px] font-lora-font text-[18px] leading-[1.56] tracking-[0.032px]">
+  <li className="flex text-[15px] gap-[8px] font-lora-font leading-[1.56] tracking-[0.032px]">
     <div>{icon}</div>
     <div>{title}</div>
   </li>
